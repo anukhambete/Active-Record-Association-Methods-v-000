@@ -11,6 +11,6 @@ class Song < ActiveRecord::Base
     drake = Artist.new(name: "Drake")
     drake.save
     drake.songs << self
-    binding.pry
+    #binding.pry
   end
 end
